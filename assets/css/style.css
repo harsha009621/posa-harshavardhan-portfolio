@@ -370,6 +370,77 @@ main {
   min-width: 259px;
 }
 
+/**
+ * mobile layout refinement
+ */
+
+@media (max-width: 579px) {
+
+  main {
+    margin: 12px 10px 92px;
+  }
+
+  .sidebar,
+  article {
+    border-radius: 16px;
+  }
+
+  .sidebar {
+    padding: 16px;
+  }
+
+  .info-content .name {
+    font-size: 18px;
+  }
+
+  .info-content .title {
+    font-size: 11px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .about-text p {
+    margin-bottom: 18px;
+  }
+
+  .service {
+    margin-bottom: 20px;
+  }
+
+  .service-title {
+    margin-bottom: 16px;
+  }
+
+  .service-list {
+    gap: 14px;
+  }
+
+  .service-item {
+    padding: 18px 16px;
+  }
+
+  .service-item-title {
+    font-size: 16px;
+  }
+
+  .service-item-text {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .navbar {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .navbar-link {
+    padding: 18px 8px;
+  }
+
+}
+
 
 
 
